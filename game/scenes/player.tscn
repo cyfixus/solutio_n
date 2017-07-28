@@ -1,0 +1,140 @@
+[gd_scene load_steps=18 format=1]
+
+[ext_resource path="res://game/scenes/player.gd" type="Script" id=1]
+[ext_resource path="res://assets/sprites/player/player_d1.png" type="Texture" id=2]
+[ext_resource path="res://assets/sprites/player/player_u2.png" type="Texture" id=3]
+[ext_resource path="res://assets/sprites/player/player_u1.png" type="Texture" id=4]
+[ext_resource path="res://assets/sprites/player/player_u3.png" type="Texture" id=5]
+[ext_resource path="res://assets/sprites/player/player_r1.png" type="Texture" id=6]
+[ext_resource path="res://assets/sprites/player/player_l1.png" type="Texture" id=7]
+[ext_resource path="res://assets/sprites/player/player_d2.png" type="Texture" id=8]
+[ext_resource path="res://assets/sprites/player/player_d3.png" type="Texture" id=9]
+[ext_resource path="res://assets/sprites/player/player_r2.png" type="Texture" id=10]
+[ext_resource path="res://assets/sprites/player/player_r3.png" type="Texture" id=11]
+[ext_resource path="res://assets/sprites/player/player_l2.png" type="Texture" id=12]
+[ext_resource path="res://assets/sprites/player/player_l3.png" type="Texture" id=13]
+[ext_resource path="res://game/scenes/waste_gun.tscn" type="PackedScene" id=14]
+
+[sub_resource type="CapsuleShape2D" id=1]
+
+custom_solver_bias = 0.0
+radius = 12.9911
+height = 2.35933
+
+[sub_resource type="RectangleShape2D" id=2]
+
+custom_solver_bias = 0.0
+extents = Vector2( 8.96898, 3.50219 )
+
+[sub_resource type="SpriteFrames" id=3]
+
+animations = [ {
+"frames": [ ExtResource( 2 ) ],
+"loop": true,
+"name": "idle_down",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 3 ), ExtResource( 4 ), ExtResource( 5 ) ],
+"loop": true,
+"name": "walk_up",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 6 ) ],
+"loop": true,
+"name": "idle_right",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 4 ) ],
+"loop": true,
+"name": "idle_up",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 7 ) ],
+"loop": true,
+"name": "idle_left",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 8 ), ExtResource( 2 ), ExtResource( 9 ) ],
+"loop": true,
+"name": "walk_down",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 10 ), ExtResource( 6 ), ExtResource( 11 ) ],
+"loop": true,
+"name": "walk_right",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 12 ), ExtResource( 7 ), ExtResource( 13 ) ],
+"loop": true,
+"name": "walk_left",
+"speed": 5.0
+} ]
+
+[node name="player" type="KinematicBody2D"]
+
+z/z = 2
+input/pickable = true
+shapes/0/shape = SubResource( 1 )
+shapes/0/transform = Matrix32( 1, 0, 0, 1, 0, 0 )
+shapes/0/trigger = true
+shapes/1/shape = SubResource( 2 )
+shapes/1/transform = Matrix32( 1, 0, 0, 1, 0.19371, 12.5912 )
+shapes/1/trigger = false
+collision/layers = 1
+collision/mask = 1
+collision/margin = 0.08
+script/script = ExtResource( 1 )
+MOTION_SPEED = 140
+
+[node name="sprite" type="AnimatedSprite" parent="."]
+
+transform/scale = Vector2( 2, 2 )
+frames = SubResource( 3 )
+animation = "idle_down"
+
+[node name="ray" type="RayCast2D" parent="."]
+
+enabled = false
+cast_to = Vector2( 0, 50 )
+layer_mask = 1
+type_mask = 15
+
+[node name="Sprite" type="Sprite" parent="."]
+
+[node name="body_collision" type="CollisionShape2D" parent="."]
+
+shape = SubResource( 1 )
+trigger = true
+_update_shape_index = 0
+
+[node name="Camera2D" type="Camera2D" parent="."]
+
+transform/pos = Vector2( 0, 0.094471 )
+anchor_mode = 1
+rotating = false
+current = false
+zoom = Vector2( 1, 1 )
+limit/left = -10000000
+limit/top = -10000000
+limit/right = 10000000
+limit/bottom = 10000000
+drag_margin/h_enabled = true
+drag_margin/v_enabled = true
+smoothing/enable = false
+smoothing/speed = 5.0
+drag_margin/left = 0.2
+drag_margin/top = 0.2
+drag_margin/right = 0.2
+drag_margin/bottom = 0.2
+
+[node name="waste_gun" parent="." instance=ExtResource( 14 )]
+
+[node name="foot_collision" type="CollisionShape2D" parent="."]
+
+transform/pos = Vector2( 0.19371, 12.5912 )
+shape = SubResource( 2 )
+trigger = false
+_update_shape_index = 1
+
+
+[editable path="waste_gun"]

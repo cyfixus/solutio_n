@@ -1,0 +1,11 @@
+[gd_scene load_steps=2 format=1]
+
+[ext_resource path="res://game/tilesets/wall_tile.tscn" type="PackedScene" id=1]
+
+[node name="tileset" type="Node2D"]
+
+[node name="wall_tile" parent="." instance=ExtResource( 1 )]
+
+transform/pos = Vector2( 8, 16 )
+
+

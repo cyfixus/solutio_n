@@ -1,0 +1,1774 @@
+[gd_scene load_steps=3 format=1]
+
+[ext_resource path="res://game/scripts/floor.gd" type="Script" id=1]
+[ext_resource path="res://game/scenes/ground.tscn" type="PackedScene" id=2]
+
+[node name="floor" type="Node2D"]
+
+script/script = ExtResource( 1 )
+
+[node name="ground" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 128, 296 )
+
+[node name="ground1" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 144, 296 )
+
+[node name="ground2" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 160, 296 )
+
+[node name="ground3" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 176, 296 )
+
+[node name="ground4" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 192, 296 )
+
+[node name="ground5" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 208, 296 )
+
+[node name="ground6" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 224, 296 )
+
+[node name="ground7" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 240, 296 )
+
+[node name="ground8" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 256, 296 )
+
+[node name="ground9" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 272, 296 )
+
+[node name="ground10" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 288, 296 )
+
+[node name="ground11" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 304, 296 )
+
+[node name="ground12" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 320, 296 )
+
+[node name="ground13" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 336, 296 )
+
+[node name="ground14" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 352, 296 )
+
+[node name="ground15" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 368, 296 )
+
+[node name="ground16" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 384, 296 )
+
+[node name="ground17" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 400, 296 )
+
+[node name="ground18" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 416, 296 )
+
+[node name="ground19" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 432, 296 )
+
+[node name="ground20" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 448, 296 )
+
+[node name="ground21" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 464, 296 )
+
+[node name="ground22" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 480, 296 )
+
+[node name="ground23" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 496, 296 )
+
+[node name="ground24" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 512, 296 )
+
+[node name="ground25" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 528, 296 )
+
+[node name="ground26" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 544, 296 )
+
+[node name="ground27" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 560, 296 )
+
+[node name="ground28" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 576, 296 )
+
+[node name="ground29" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 592, 296 )
+
+[node name="ground30" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 608, 296 )
+
+[node name="ground31" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 608, 280 )
+
+[node name="ground32" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 608, 264 )
+
+[node name="ground33" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 608, 248 )
+
+[node name="ground34" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 608, 232 )
+
+[node name="ground35" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 608, 216 )
+
+[node name="ground36" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 608, 200 )
+
+[node name="ground37" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 608, 184 )
+
+[node name="ground38" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 608, 168 )
+
+[node name="ground39" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 608, 152 )
+
+[node name="ground40" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 608, 136 )
+
+[node name="ground41" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 608, 120 )
+
+[node name="ground42" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 608, 104 )
+
+[node name="ground43" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 608, 88 )
+
+[node name="ground44" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 608, 72 )
+
+[node name="ground45" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 592, 72 )
+
+[node name="ground46" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 576, 72 )
+
+[node name="ground47" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 560, 72 )
+
+[node name="ground48" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 544, 72 )
+
+[node name="ground49" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 528, 72 )
+
+[node name="ground50" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 512, 72 )
+
+[node name="ground51" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 496, 72 )
+
+[node name="ground52" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 480, 72 )
+
+[node name="ground53" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 464, 72 )
+
+[node name="ground54" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 448, 72 )
+
+[node name="ground55" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 432, 72 )
+
+[node name="ground56" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 416, 72 )
+
+[node name="ground57" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 400, 72 )
+
+[node name="ground58" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 384, 72 )
+
+[node name="ground59" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 368, 72 )
+
+[node name="ground60" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 352, 72 )
+
+[node name="ground61" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 336, 72 )
+
+[node name="ground62" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 320, 72 )
+
+[node name="ground63" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 304, 72 )
+
+[node name="ground64" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 288, 72 )
+
+[node name="ground65" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 272, 72 )
+
+[node name="ground66" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 256, 72 )
+
+[node name="ground67" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 240, 72 )
+
+[node name="ground68" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 224, 72 )
+
+[node name="ground69" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 208, 72 )
+
+[node name="ground70" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 192, 72 )
+
+[node name="ground71" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 176, 72 )
+
+[node name="ground72" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 160, 72 )
+
+[node name="ground73" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 144, 72 )
+
+[node name="ground74" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 128, 72 )
+
+[node name="ground75" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 128, 88 )
+
+[node name="ground76" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 128, 104 )
+
+[node name="ground77" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 128, 120 )
+
+[node name="ground78" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 128, 136 )
+
+[node name="ground79" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 128, 152 )
+
+[node name="ground80" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 128, 168 )
+
+[node name="ground81" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 128, 184 )
+
+[node name="ground82" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 128, 200 )
+
+[node name="ground83" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 128, 216 )
+
+[node name="ground84" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 128, 232 )
+
+[node name="ground85" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 128, 248 )
+
+[node name="ground86" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 128, 264 )
+
+[node name="ground87" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 128, 280 )
+
+[node name="ground88" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 144, 280 )
+
+[node name="ground89" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 160, 280 )
+
+[node name="ground90" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 176, 280 )
+
+[node name="ground91" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 192, 280 )
+
+[node name="ground92" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 208, 280 )
+
+[node name="ground93" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 224, 280 )
+
+[node name="ground94" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 240, 280 )
+
+[node name="ground95" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 256, 280 )
+
+[node name="ground96" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 272, 280 )
+
+[node name="ground97" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 288, 280 )
+
+[node name="ground98" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 304, 280 )
+
+[node name="ground99" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 320, 280 )
+
+[node name="ground100" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 336, 280 )
+
+[node name="ground101" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 352, 280 )
+
+[node name="ground102" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 368, 280 )
+
+[node name="ground103" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 384, 280 )
+
+[node name="ground104" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 400, 280 )
+
+[node name="ground105" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 416, 280 )
+
+[node name="ground106" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 432, 280 )
+
+[node name="ground107" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 448, 280 )
+
+[node name="ground108" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 464, 280 )
+
+[node name="ground109" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 480, 280 )
+
+[node name="ground110" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 496, 280 )
+
+[node name="ground111" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 512, 280 )
+
+[node name="ground112" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 528, 280 )
+
+[node name="ground113" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 544, 280 )
+
+[node name="ground129" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 544, 248 )
+
+[node name="ground130" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 544, 216 )
+
+[node name="ground131" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 544, 184 )
+
+[node name="ground132" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 544, 152 )
+
+[node name="ground133" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 544, 120 )
+
+[node name="ground134" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 352, 152 )
+
+[node name="ground135" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 352, 120 )
+
+[node name="ground136" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 400, 264 )
+
+[node name="ground137" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 384, 264 )
+
+[node name="ground138" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 368, 264 )
+
+[node name="ground139" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 352, 264 )
+
+[node name="ground140" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 336, 264 )
+
+[node name="ground141" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 320, 264 )
+
+[node name="ground142" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 304, 264 )
+
+[node name="ground143" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 288, 264 )
+
+[node name="ground144" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 272, 264 )
+
+[node name="ground145" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 256, 264 )
+
+[node name="ground146" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 240, 264 )
+
+[node name="ground147" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 224, 264 )
+
+[node name="ground148" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 208, 264 )
+
+[node name="ground149" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 192, 264 )
+
+[node name="ground150" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 176, 264 )
+
+[node name="ground151" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 160, 264 )
+
+[node name="ground152" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 144, 264 )
+
+[node name="ground153" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 144, 248 )
+
+[node name="ground154" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 160, 248 )
+
+[node name="ground155" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 176, 248 )
+
+[node name="ground156" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 192, 248 )
+
+[node name="ground157" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 208, 248 )
+
+[node name="ground158" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 224, 248 )
+
+[node name="ground159" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 240, 248 )
+
+[node name="ground160" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 256, 248 )
+
+[node name="ground161" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 272, 248 )
+
+[node name="ground162" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 288, 248 )
+
+[node name="ground163" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 304, 248 )
+
+[node name="ground164" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 352, 248 )
+
+[node name="ground165" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 368, 248 )
+
+[node name="ground166" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 416, 248 )
+
+[node name="ground167" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 432, 248 )
+
+[node name="ground168" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 448, 248 )
+
+[node name="ground169" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 464, 248 )
+
+[node name="ground170" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 480, 248 )
+
+[node name="ground171" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 496, 248 )
+
+[node name="ground172" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 512, 248 )
+
+[node name="ground173" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 528, 248 )
+
+[node name="ground174" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 560, 248 )
+
+[node name="ground175" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 576, 248 )
+
+[node name="ground176" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 592, 248 )
+
+[node name="ground177" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 592, 232 )
+
+[node name="ground178" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 576, 232 )
+
+[node name="ground179" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 560, 232 )
+
+[node name="ground180" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 544, 232 )
+
+[node name="ground181" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 528, 232 )
+
+[node name="ground182" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 512, 232 )
+
+[node name="ground183" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 496, 232 )
+
+[node name="ground184" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 480, 232 )
+
+[node name="ground185" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 464, 232 )
+
+[node name="ground186" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 448, 232 )
+
+[node name="ground187" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 432, 232 )
+
+[node name="ground188" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 416, 232 )
+
+[node name="ground189" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 368, 232 )
+
+[node name="ground190" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 352, 232 )
+
+[node name="ground191" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 304, 232 )
+
+[node name="ground192" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 288, 232 )
+
+[node name="ground193" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 272, 232 )
+
+[node name="ground194" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 256, 232 )
+
+[node name="ground195" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 240, 232 )
+
+[node name="ground196" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 224, 232 )
+
+[node name="ground197" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 208, 232 )
+
+[node name="ground198" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 192, 232 )
+
+[node name="ground199" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 176, 232 )
+
+[node name="ground200" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 160, 232 )
+
+[node name="ground201" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 144, 232 )
+
+[node name="ground202" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 144, 216 )
+
+[node name="ground203" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 160, 216 )
+
+[node name="ground204" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 176, 216 )
+
+[node name="ground205" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 192, 216 )
+
+[node name="ground206" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 208, 216 )
+
+[node name="ground207" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 224, 216 )
+
+[node name="ground208" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 240, 216 )
+
+[node name="ground209" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 256, 216 )
+
+[node name="ground210" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 272, 216 )
+
+[node name="ground211" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 288, 216 )
+
+[node name="ground212" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 304, 216 )
+
+[node name="ground213" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 336, 216 )
+
+[node name="ground214" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 352, 216 )
+
+[node name="ground215" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 368, 216 )
+
+[node name="ground216" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 384, 216 )
+
+[node name="ground217" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 416, 216 )
+
+[node name="ground218" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 432, 216 )
+
+[node name="ground219" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 448, 216 )
+
+[node name="ground220" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 464, 216 )
+
+[node name="ground221" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 480, 216 )
+
+[node name="ground222" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 496, 216 )
+
+[node name="ground223" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 512, 216 )
+
+[node name="ground224" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 528, 216 )
+
+[node name="ground225" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 560, 216 )
+
+[node name="ground226" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 576, 216 )
+
+[node name="ground227" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 592, 216 )
+
+[node name="ground228" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 592, 200 )
+
+[node name="ground229" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 576, 200 )
+
+[node name="ground230" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 560, 200 )
+
+[node name="ground231" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 544, 200 )
+
+[node name="ground232" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 528, 200 )
+
+[node name="ground233" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 512, 200 )
+
+[node name="ground234" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 496, 200 )
+
+[node name="ground235" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 480, 200 )
+
+[node name="ground236" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 464, 200 )
+
+[node name="ground237" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 448, 200 )
+
+[node name="ground238" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 432, 200 )
+
+[node name="ground239" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 416, 200 )
+
+[node name="ground240" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 384, 200 )
+
+[node name="ground241" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 368, 200 )
+
+[node name="ground242" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 352, 200 )
+
+[node name="ground243" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 336, 200 )
+
+[node name="ground244" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 304, 200 )
+
+[node name="ground245" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 288, 200 )
+
+[node name="ground246" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 272, 200 )
+
+[node name="ground247" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 256, 200 )
+
+[node name="ground248" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 240, 200 )
+
+[node name="ground249" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 224, 200 )
+
+[node name="ground250" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 208, 200 )
+
+[node name="ground251" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 192, 200 )
+
+[node name="ground252" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 176, 200 )
+
+[node name="ground253" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 160, 200 )
+
+[node name="ground254" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 144, 200 )
+
+[node name="ground255" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 144, 184 )
+
+[node name="ground256" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 160, 184 )
+
+[node name="ground257" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 176, 184 )
+
+[node name="ground258" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 192, 184 )
+
+[node name="ground259" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 208, 184 )
+
+[node name="ground260" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 224, 184 )
+
+[node name="ground261" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 240, 184 )
+
+[node name="ground262" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 256, 184 )
+
+[node name="ground263" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 272, 184 )
+
+[node name="ground264" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 288, 184 )
+
+[node name="ground265" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 304, 184 )
+
+[node name="ground266" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 416, 184 )
+
+[node name="ground267" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 432, 184 )
+
+[node name="ground268" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 448, 184 )
+
+[node name="ground269" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 464, 184 )
+
+[node name="ground270" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 480, 184 )
+
+[node name="ground271" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 496, 184 )
+
+[node name="ground272" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 512, 184 )
+
+[node name="ground273" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 528, 184 )
+
+[node name="ground274" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 560, 184 )
+
+[node name="ground275" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 576, 184 )
+
+[node name="ground276" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 592, 184 )
+
+[node name="ground277" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 592, 168 )
+
+[node name="ground278" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 576, 168 )
+
+[node name="ground279" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 560, 168 )
+
+[node name="ground280" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 544, 168 )
+
+[node name="ground281" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 528, 168 )
+
+[node name="ground282" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 512, 168 )
+
+[node name="ground283" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 496, 168 )
+
+[node name="ground284" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 480, 168 )
+
+[node name="ground285" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 464, 168 )
+
+[node name="ground286" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 448, 168 )
+
+[node name="ground287" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 432, 168 )
+
+[node name="ground288" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 416, 168 )
+
+[node name="ground289" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 304, 168 )
+
+[node name="ground290" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 288, 168 )
+
+[node name="ground291" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 272, 168 )
+
+[node name="ground292" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 256, 168 )
+
+[node name="ground293" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 240, 168 )
+
+[node name="ground294" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 224, 168 )
+
+[node name="ground295" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 208, 168 )
+
+[node name="ground296" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 192, 168 )
+
+[node name="ground297" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 176, 168 )
+
+[node name="ground298" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 160, 168 )
+
+[node name="ground299" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 144, 168 )
+
+[node name="ground300" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 144, 152 )
+
+[node name="ground301" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 160, 152 )
+
+[node name="ground302" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 176, 152 )
+
+[node name="ground303" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 192, 152 )
+
+[node name="ground304" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 208, 152 )
+
+[node name="ground305" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 224, 152 )
+
+[node name="ground306" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 240, 152 )
+
+[node name="ground307" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 256, 152 )
+
+[node name="ground308" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 272, 152 )
+
+[node name="ground309" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 288, 152 )
+
+[node name="ground310" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 304, 152 )
+
+[node name="ground311" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 320, 152 )
+
+[node name="ground312" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 336, 152 )
+
+[node name="ground313" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 368, 152 )
+
+[node name="ground314" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 384, 152 )
+
+[node name="ground315" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 400, 152 )
+
+[node name="ground316" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 416, 152 )
+
+[node name="ground317" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 432, 152 )
+
+[node name="ground318" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 448, 152 )
+
+[node name="ground319" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 464, 152 )
+
+[node name="ground320" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 480, 152 )
+
+[node name="ground321" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 496, 152 )
+
+[node name="ground322" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 512, 152 )
+
+[node name="ground323" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 528, 152 )
+
+[node name="ground324" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 560, 152 )
+
+[node name="ground325" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 576, 152 )
+
+[node name="ground326" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 592, 152 )
+
+[node name="ground327" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 592, 136 )
+
+[node name="ground328" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 576, 136 )
+
+[node name="ground329" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 560, 136 )
+
+[node name="ground330" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 544, 136 )
+
+[node name="ground331" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 528, 136 )
+
+[node name="ground332" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 512, 136 )
+
+[node name="ground333" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 496, 136 )
+
+[node name="ground334" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 480, 136 )
+
+[node name="ground335" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 464, 136 )
+
+[node name="ground336" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 448, 136 )
+
+[node name="ground337" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 432, 136 )
+
+[node name="ground338" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 416, 136 )
+
+[node name="ground339" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 400, 136 )
+
+[node name="ground340" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 384, 136 )
+
+[node name="ground341" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 368, 136 )
+
+[node name="ground342" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 352, 136 )
+
+[node name="ground343" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 336, 136 )
+
+[node name="ground344" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 320, 136 )
+
+[node name="ground345" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 304, 136 )
+
+[node name="ground346" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 288, 136 )
+
+[node name="ground347" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 272, 136 )
+
+[node name="ground348" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 256, 136 )
+
+[node name="ground349" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 240, 136 )
+
+[node name="ground350" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 224, 136 )
+
+[node name="ground351" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 208, 136 )
+
+[node name="ground352" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 192, 136 )
+
+[node name="ground353" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 176, 136 )
+
+[node name="ground354" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 160, 136 )
+
+[node name="ground355" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 144, 136 )
+
+[node name="ground356" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 144, 120 )
+
+[node name="ground357" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 160, 120 )
+
+[node name="ground358" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 176, 120 )
+
+[node name="ground359" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 192, 120 )
+
+[node name="ground360" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 208, 120 )
+
+[node name="ground361" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 224, 120 )
+
+[node name="ground362" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 240, 120 )
+
+[node name="ground363" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 256, 120 )
+
+[node name="ground364" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 272, 120 )
+
+[node name="ground365" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 288, 120 )
+
+[node name="ground366" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 304, 120 )
+
+[node name="ground367" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 320, 120 )
+
+[node name="ground368" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 336, 120 )
+
+[node name="ground369" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 368, 120 )
+
+[node name="ground370" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 384, 120 )
+
+[node name="ground371" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 400, 120 )
+
+[node name="ground372" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 416, 120 )
+
+[node name="ground373" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 432, 120 )
+
+[node name="ground374" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 448, 120 )
+
+[node name="ground375" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 464, 120 )
+
+[node name="ground376" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 480, 120 )
+
+[node name="ground377" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 496, 120 )
+
+[node name="ground378" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 512, 120 )
+
+[node name="ground379" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 528, 120 )
+
+[node name="ground380" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 560, 120 )
+
+[node name="ground381" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 576, 120 )
+
+[node name="ground382" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 592, 120 )
+
+[node name="ground383" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 592, 104 )
+
+[node name="ground384" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 592, 88 )
+
+[node name="ground385" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 576, 88 )
+
+[node name="ground386" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 576, 104 )
+
+[node name="ground387" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 560, 104 )
+
+[node name="ground388" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 560, 88 )
+
+[node name="ground389" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 544, 88 )
+
+[node name="ground390" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 544, 104 )
+
+[node name="ground391" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 528, 104 )
+
+[node name="ground392" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 528, 88 )
+
+[node name="ground393" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 512, 88 )
+
+[node name="ground394" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 512, 104 )
+
+[node name="ground395" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 496, 104 )
+
+[node name="ground396" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 496, 88 )
+
+[node name="ground397" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 480, 88 )
+
+[node name="ground398" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 480, 104 )
+
+[node name="ground399" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 464, 104 )
+
+[node name="ground400" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 464, 88 )
+
+[node name="ground401" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 448, 88 )
+
+[node name="ground402" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 448, 104 )
+
+[node name="ground403" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 432, 104 )
+
+[node name="ground404" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 432, 88 )
+
+[node name="ground405" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 416, 88 )
+
+[node name="ground406" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 416, 104 )
+
+[node name="ground407" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 400, 104 )
+
+[node name="ground408" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 400, 88 )
+
+[node name="ground409" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 384, 88 )
+
+[node name="ground410" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 384, 104 )
+
+[node name="ground411" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 368, 104 )
+
+[node name="ground412" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 368, 88 )
+
+[node name="ground413" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 352, 88 )
+
+[node name="ground414" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 352, 104 )
+
+[node name="ground415" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 336, 104 )
+
+[node name="ground416" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 336, 88 )
+
+[node name="ground417" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 320, 88 )
+
+[node name="ground418" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 320, 104 )
+
+[node name="ground419" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 304, 104 )
+
+[node name="ground420" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 304, 88 )
+
+[node name="ground421" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 288, 88 )
+
+[node name="ground422" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 288, 104 )
+
+[node name="ground423" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 272, 104 )
+
+[node name="ground424" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 272, 88 )
+
+[node name="ground425" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 256, 88 )
+
+[node name="ground426" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 256, 104 )
+
+[node name="ground427" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 240, 104 )
+
+[node name="ground428" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 240, 88 )
+
+[node name="ground429" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 224, 88 )
+
+[node name="ground430" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 224, 104 )
+
+[node name="ground431" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 208, 104 )
+
+[node name="ground432" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 208, 88 )
+
+[node name="ground433" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 192, 88 )
+
+[node name="ground434" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 192, 104 )
+
+[node name="ground435" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 176, 104 )
+
+[node name="ground436" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 176, 88 )
+
+[node name="ground437" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 160, 88 )
+
+[node name="ground438" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 160, 104 )
+
+[node name="ground439" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 144, 104 )
+
+[node name="ground440" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 144, 88 )
+
+[node name="ground114" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 560, 280 )
+
+[node name="ground115" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 576, 280 )
+
+[node name="ground116" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 592, 280 )
+
+[node name="ground117" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 592, 264 )
+
+[node name="ground118" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 576, 264 )
+
+[node name="ground119" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 560, 264 )
+
+[node name="ground120" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 544, 264 )
+
+[node name="ground121" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 528, 264 )
+
+[node name="ground122" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 512, 264 )
+
+[node name="ground123" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 496, 264 )
+
+[node name="ground124" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 480, 264 )
+
+[node name="ground125" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 464, 264 )
+
+[node name="ground126" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 448, 264 )
+
+[node name="ground127" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 432, 264 )
+
+[node name="ground128" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 416, 264 )
+
+
