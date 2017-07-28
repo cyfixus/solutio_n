@@ -2,11 +2,11 @@
 
 Rough demo complete, no data persistence, rudimentary gameplay
 
-		Download demos:
-			Android - [https://storage.googleapis.com/normsalley/solutio_n.apk]
-			Windows- [https://storage.googleapis.com/normsalley/solutio_n.zip]
-			Mac- [https://storage.googleapis.com/normsalley/solutio_n-mac.zip]
-			Linux- [https://storage.googleapis.com/normsalley/solutio_n-linux.zip]
+##Download demos:
+Android - [https://storage.googleapis.com/normsalley/solutio_n.apk]
+Windows- [https://storage.googleapis.com/normsalley/solutio_n.zip]
+Mac- [https://storage.googleapis.com/normsalley/solutio_n-mac.zip]
+Linux- [https://storage.googleapis.com/normsalley/solutio_n-linux.zip]
 
 
 Early development of SOLUTIO_N
